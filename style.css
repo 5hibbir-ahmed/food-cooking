@@ -1,0 +1,157 @@
+body {
+	margin: 0%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+	font-size: 40px;
+}
+.coloring {
+	color: rgb(240, 6, 104);
+}
+.button-color {
+	font-weight: 600;
+	text-decoration: none;
+	background-image: linear-gradient(13deg, deeppink, red);
+	padding: 14px 17px;
+	border-radius: 7px;
+	border: none;
+	color: #fff;
+	margin-top: 25px;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.flexible-container{
+	display: flex;
+	width: 90%;
+    justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
+}
+.half-width {
+	width: 50%;
+	padding: 3%;
+}
+.half-width img{
+    width: 500px;
+    margin-bottom: 100px;
+}
+
+.about-section {
+	background-image: url(images/shapes/fram2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	padding: 40px;
+	padding-bottom: 0;
+}
+.about {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+    
+}
+.about-img {
+	text-align: center;
+	width: 50%;
+}
+.about-img img {
+	width: 500px;
+}
+
+.about-content {
+	width: 50%;
+
+}
+.text-in-center{
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.flexible-content{
+    display: flex;
+    width: 90%;
+    padding-bottom: 50px;
+    
+	
+    
+}
+.content-position{
+    
+    margin-left: 8%;
+	margin-right: 2%;
+    border-radius: 10px;
+    box-shadow:10px 20px 40px;
+    
+}
+.content-position img{
+    width: 350px;
+    margin: 10px;
+	border-radius: 20px;
+
+    
+}
+.writing-part{
+    margin: 10px;
+
+
+}
+.input-section{
+    
+    display: flex;
+    align-items: center;
+    box-shadow:5px 10px 20px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    margin-left: 6%;
+    margin-bottom: 50px;
+}
+.input-box{
+    padding: 8px;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+#submit-button{
+    font-weight: 300;
+	
+	background-image: linear-gradient(13deg, deeppink, red);
+	padding: 8px 10px;
+	border-radius: 7px;
+	border: none;
+	color: #fff;
+	margin-top: 50px;
+    margin-left: 10px;
+	display: inline-block;
+	font-size: 20px;
+    
+}
+#cancel-button{
+    font-weight: 300;
+	
+	background-image: linear-gradient(gray, black);
+	padding: 8px 10px;
+	border-radius: 7px;
+	border: none;
+	color: #fff;
+	margin-top: 50px;
+    margin-left: 10px;
+	display: inline-block;
+	font-size: 20px;
+
+}
+.footer-color{
+    background-color: black;
+    padding: 50px;
+}
+.cook-color{
+    color: blanchedalmond;
+}
+.text-color{
+    color: cyan;
+}
+
